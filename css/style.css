@@ -8,22 +8,31 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background-image: ("./images.frame.png");
-  background-color: #06365f;
-
+  /*background-image: ("./images.frame.png");
+  background-color: #06365f;*/
+  /*background-image:url("css/bgtile.png");
+ background-repeat: repeat-x;
+*/
 }
 
-#phone {  
+#bg-repeat {
+   background-image:url("css/bgtile.png");
+ background-repeat: repeat-x;
+}
+#phoneimage {  
   display: inline-block;
   padding: 34% 34%;
   margin: 2% 3% 4% 5%
 }
-#home{
-  background-color: #1c5380;
-  padding:2% 3% 4% 5%;
+
+#header{
+  display: inline-block;
+  /* background-image:url("css/bgtile.png");
+ background-repeat: repeat-x;*/
 }
 
 #frame{
   display: inline-block;
-
+  padding: 40px 10px 314px 78px;
 }
+
